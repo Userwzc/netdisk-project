@@ -1,0 +1,2 @@
+1.send也会阻塞的
+2.对端断开，send第一次返回-1，第二次send收到SIGPIPE信号
